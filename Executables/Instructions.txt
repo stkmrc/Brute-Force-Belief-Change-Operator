@@ -1,0 +1,8 @@
+----------------------------------------------------------------------------------------------
+Please read the provided README file first.
+Program has to run in same directory as input files. 
+----------------------------------------------------------------------------------------------
+
+To run the Windows executable files please make sure to install the VC++ runtime librarys:
+
+http://www.microsoft.com/en-us/download/details.aspx?id=30679
