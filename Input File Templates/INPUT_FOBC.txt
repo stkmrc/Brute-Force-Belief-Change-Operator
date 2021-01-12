@@ -1,0 +1,47 @@
+* Define FO-BC conditions for completing the change operator
+* 
+* FO-BC Signature consists of:
+* 	- constant c
+* 	- predicate Mod/1, written in prefix notation as Mod(x)
+*		-> True, if argument x ∈ Mod(α)
+* 	- predicate TPO1/2, written in prefix notation as TPO1(x,y)
+*		-> True if argument x ≤ y in total preorder of origin state of belief change
+* 	- predicate TPO2/2, written in prefix notation as TPO2(x,y)
+*		-> True if argument x ≤ y in total preorder of destination state of belief change
+*
+* Use following logical symbols: 
+*	&, |, ~, =>, <=>, A(x) as ∀, E(x) as ∃
+*
+* Variables are defined as characters in range [u, v,..., z]
+* If more variables are needed two numbers can be added (e.g. u1, x15, w79)
+*
+* Brackets can be used. Default binding definition:
+*	(strongest) ~, ∧, ∨, =>, <=>, ∀, ∃ (weakest)
+* 
+* The algorithm can get rid of spaces in the sentences.
+* You can enter multiple sentences.
+*
+*
+*-------------------------------------------------------------------------------
+*	Insert conditions below (one sentence per line)
+*--------------------------------------------------------------------------------
+
+*CR1
+*(Mod(x) & Mod(y)) => (TPO1(x,y) <=> TPO2(x,y))
+
+*CR2
+*(~Mod(x) & ~Mod(y)) => (TPO1(x,y) <=> TPO2(x,y))
+
+*CR3
+*(Mod(x) & ~Mod(y)) => (~TPO1(y,x) => ~TPO2(y,x))
+
+*CR4
+*(Mod(x) & ~Mod(y)) => (TPO1(x,y) => TPO2(x,y))
+
+*AGM Revision
+*(Mod(x) & (A(y) (Mod(y) => TPO1(x,y)))) <=> (A(z) TPO2(x,z))
+
+*AGM Kontraktion
+*((~Mod(x) & (A(y) (~Mod(y) => TPO1(x,y)))) | (A(y) TPO1(x,y))) <=> (A(z) TPO2(x,z))
+
+

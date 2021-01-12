@@ -1,0 +1,7 @@
+*Predefined States s with corresponding total preorders t(s) over worlds w;;;;
+*Insert plausibility index as natural numbers (0 is most probable);;;;
+;;;;
+States/Worlds;w1;w2;w3;w4
+s0;0;1;1;2
+s1;0;0;1;0
+s2;2;1;2;0

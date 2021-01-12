@@ -1,0 +1,8 @@
+*Predefined Edges with corresponding worlds l(s1, s2);;;;;
+*Insert <true> for worlds, that are part of alpha for the corresponding edge, <false> for worlds, which are not;;;;;
+*Make sure to at least have one <true> for each row, since edges without corresponding worlds are not accepted;;;;;
+*make sure, that the states and worlds match the ones in the first input file;;;;;
+;;;;;
+origin;destination/alpha;w1;w2;w3;w4
+s0;s0;true;true;true;true
+s0;s1;true;true;true;true
