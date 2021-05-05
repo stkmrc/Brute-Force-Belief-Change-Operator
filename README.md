@@ -1,6 +1,11 @@
 # Brute-Force-Belief-Change-Operator
 Parses First-Order logic sentences and uses them to construct a completed operator for iterative belief change.
 
+The FOL parser is an extension based on the "First-Order-Logic-Inference-Engine" repo by Viraj Sahai:
+https://github.com/virajsahai/First-Order-Logic-Inference-Engine
+
+## German instructions:
+
 *******Vervollständigung von partiell spezifizierten Wissensänderungsoperatoren*******
 
 Diese SW dient der Vervollständigung von partiell spezifizierten Wissensänderungsoperatoren.
@@ -93,8 +98,11 @@ How to use:
 
 --------------------------------------------------------------------------------------------------------------------
 
-  (c)	Marco Stock, 06.10.20
-  Masterarbeit, Studiengang: Praktische Informatik
+  	Marco Stock, 06.10.20
+  
+	Masterarbeit, Studiengang: Praktische Informatik
+  
 	Fernuniversität in Hagen
+	
 	Betreuer: Prof. Dr. Christoph Beierle
 
