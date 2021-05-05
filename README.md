@@ -2,6 +2,7 @@
 Parses First-Order logic sentences and uses them to construct a completed operator for iterative belief change.
 
 The FOL parser is an extension based on the "First-Order-Logic-Inference-Engine" repo by Viraj Sahai:
+
 https://github.com/virajsahai/First-Order-Logic-Inference-Engine
 (commit 4b7a11d51c55a1947f9b98e6072bb9f08ef0b2ef)
 
